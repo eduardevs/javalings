@@ -1,4 +1,4 @@
-package projects.dynamic_connectivity;
+package projects.Algorithms.DynamicConnectivity;
 
 public class QuickFindUF {
     private int[] id;

@@ -1,7 +1,5 @@
 package projects.Algorithms.Sort;
 
-import java.util.List;
-
 public class BubbleSort {
 
     static void of(int[] arr) {

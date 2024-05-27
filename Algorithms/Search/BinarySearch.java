@@ -6,6 +6,15 @@ import java.util.List;
 
 public class BinarySearch {
 
+    static List<Integer> generateArray(int from, int to) {
+        List<Integer> listNumbers = new ArrayList<>();
+
+        for (int i = from; i <= to; i++) {
+            listNumbers.add(i);
+        }
+        return listNumbers;
+    }
+
     // changer a public
 
     // [lo + (hi-lo)/2]
@@ -31,9 +40,9 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(1,2,3,4,5);
+        List<Integer> numbers = generateArray(1, 100);
 
-        boolean result = find(numbers, 5);
+        boolean result = find(numbers, 40);
         System.out.println(result);
     }
 
